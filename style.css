@@ -1,0 +1,754 @@
+.colon {
+  font-family: Work Sans;
+}
+
+.tag {
+ font-family: Work Sans; 
+}
+.is-danger {
+  font-family: Work Sans;
+}
+
+.tags {
+ font-family: Work Sans; 
+}
+
+.nutInf {
+  font-family: Work Sans;
+}
+
+.card-content {
+  font-family: Work Sans;
+}
+
+.title1 {
+  font-family: Work Sans;
+}
+
+.directionTitle {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Work Sans;
+  
+}
+
+.directions {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: Work Sans;
+}
+
+.center { position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+img.roundImage {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+
+#nutritionUnderline {
+  text-decoration: underline;
+  color: #7bbc9e
+}
+
+
+.generatedRow {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.generatedCard {
+  display: table-cell;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+
+.full-width {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+  margin-bottom: -20px;
+}
+
+.generator {
+  margin-bottom: 20px;
+}
+
+
+.row1 {
+margin-top:10px;
+}
+
+.row2 {
+margin-top:10px;
+}
+
+.row3 {
+margin-top:10px;
+}
+.tags {
+  margin-bottom: 100px;
+}
+
+.columns {
+  display: flex;
+  align-content: center;
+
+}
+
+a {
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+#grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px;
+}
+
+#item1 {
+  grid-column: 1 ;
+}
+
+#item2 {
+  grid-column: 2;
+}
+
+#item3 {
+ grid-column: span 2 / 7;
+}
+
+
+
+
+.hidden {
+  display: none;
+}
+
+.recipeHolder {
+  background-image: url(lettuce.jpeg);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("lettuce.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: -30px;
+}
+
+.hero-body {
+  background-image: url(lettuce.jpeg);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("lettuce.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  flex-direction: column;
+}
+
+
+.is-one-third {
+margin-bottom: 10px;
+  height: 100%;
+  
+}
+}
+
+
+.is-10 {
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.my-work {
+  background: rgba(193,154,107,0.7); 
+}
+
+.is-4 {
+  width: 50%;
+  height: 75%;
+}
+
+
+
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+}
+
+/*light brown background*/
+.about-me {
+ background: rgba(193,154,107,0.7);
+}
+
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    vertical-align:bottom;
+   line-height:120px;
+    height:120px;
+
+  
+
+}
+#nav-list {
+    margin:0 auto;
+    list-style-type: none;
+    text-align: right;
+    
+}
+#nav-list li {
+    font-family: Work Sans;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 8px
+    vertical-align:bottom;
+    line-height:normal;   
+    text-shadow: 2px 2px 5px #c19a6b;
+}
+.logo-img {
+    position:absolute;
+    left:10px;
+    top:20px;
+    margin: 0px 15px 15px 0px;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.title2022 {
+  font-family: Work Sans;
+  font-size: 32px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.subtitle1 {
+  font-family: Work Sans;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+.title1 {
+  font-family: Work Sans;
+  font-size: 22px;
+  color: #2c2b2b;
+  font-weight: bold;
+}
+
+
+.card{
+  height: 100%; 
+   width:auto; 
+  left-margin: auto;
+  right-margin: auto;
+}
+
+.rows{
+   display: flex;
+    flex-direction: row;
+  gap: 10px;
+  gap: 10px 20px; 
+  row-gap: 10px;
+  column-gap: 20px
+}
+
+.hero {
+  background-image: url(lettuce.jpeg);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("lettuce.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: Work Sans;
+
+}
+
+
+/*Peckish */
+.hero .title { 
+  font-family: Work Sans;
+  transform: rotate(-5deg);
+  font-size: 5rem;
+  color: whitesmoke;
+  overflow: hidden; /* Ensures the content is not revealed until the animation /*
+  border-right: .10em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 8s steps(40, end),
+    blink-caret .95s ;
+}
+ 
+
+/*Hey there I'm, & a platform for healthy eating */ 
+.hero .subtitle {
+color: whitesmoke;
+}
+.hero .profession {
+  padding-top: 50px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.hero .hero-foot {
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+}
+
+media (max-width: 599px) {
+  .hero .hero-foot {
+    display: none;
+  }
+}
+
+.hero .hero-foot .hero-foot--wrapper {
+  margin: 7px auto;
+  height: 50px;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
+  border-bottom: 2px solid #1f2c6c;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
+  color: #1f2c6c;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
+  color: #1f2c6c;
+  transition: all .2s ease-in-out;
+  border-bottom: 2px solid #1f2c6c;
+}
+
+.main-content {
+  padding-top: 2rem;
+  color: white;
+  font-family: Work Sans;
+}
+
+.main-content .section-dark {
+  background-color: rgba(172,225,175,0.7);
+  padding: 60px 0px;
+  margin-bottom: 20px;
+}
+
+.main-content .section-dark.resume {
+  height: 400px;
+  padding-top: 100px;
+}
+
+@media (max-width: 599px) {
+  .main-content .section-dark.resume {
+    padding-top: 75px;
+  }
+}
+
+.main-content .section-dark.resume .title {
+  padding: 20px;
+}
+
+.main-content .section-dark.resume button {
+  border: 2px solid #43485c;
+  background: white;
+  color: #43485c;
+  height: 50px;
+  width: 250px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.main-content .section-dark.resume .fa-download {
+  color: #1f2c6c;
+}
+
+.main-content .section-dark.my-work {
+  padding: 120px;
+}
+
+@media (max-width: 599px) {
+  .main-content .section-dark.my-work {
+    padding: 75px 20px;
+  }
+}
+
+.main-content .section-dark.my-work .work-item {
+  margin-bottom: 1rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+.main-content .section-dark.my-work .work-item:hover {
+  -webkit-transform: scale(1.055) translateY(-2px);
+  transform: scale(1.055) translateY(-2px);
+  -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+  box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+}
+
+.main-content .section-light {
+  padding: 30px;
+}
+
+.main-content .section-light.about-me {
+  padding-bottom: 2px;
+}
+
+.main-content .section-light.about-me .is-larger {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 599px) {
+  .main-content .section-light.about-me .about-links {
+    text-align: center;
+  }
+}
+
+.main-content .section-light.about-me .right-image img {
+  border-radius: 11px;
+  margin: 20px;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+@media (max-width: 599px) {
+  .main-content .section-light.about-me .right-image img {
+    margin: auto;
+  }
+}
+
+.main-content .section-light.skills {
+  padding: 100px;
+}
+
+@media (max-width: 599px) {
+  .main-content .section-light.skills {
+    padding: 50px 20px 40px 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.main-content .section-light.skills h1 {
+  padding: 10px;
+}
+
+.main-content .section-light.contact {
+  padding: 200px;
+}
+
+.main-content .section-light.contact button {
+  width: 100%;
+  background-color: #43485c;
+  color: white;
+  height: 50px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: Work Sans, sans-serif;
+}
+
+@media (max-width: 599px) {
+  .main-content .section-light.contact {
+    padding: 60px 20px;
+  }
+}
+
+.main-content .section-color.services {
+  padding: 100px;
+  background-color: #43485c;
+  color: white;
+}
+
+.main-content .section-color.services .title,
+.main-content .section-color.services .subtitle {
+  color: white;
+}
+
+.main-content .section-color.services i {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.main-content .section-title {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+
+.has-text-centered {
+    text-align: center!important;
+}
+
+.footer {
+  bottom: 0;
+  width: 100vw;
+  padding: 0;
+  height: 80px;
+  line-height: 25px;
+  text-align: center;
+  background: #8fbc8f;
+  color: whitesmoke;
+  padding-top: 2rem;
+}
+
+.footer a {
+  padding: 0rem 1rem 1rem 1rem;
+  color: whitesmoke;
+}
+
+.footer a i {
+  font-size: 1.5rem;
+  padding: 0px 10px;
+}
+
+.footer a .nav-item {
+  color: whitesmoke;
+}
+
+.fa-download {
+  color: #43485c;
+}
+
+#toTop {
+  height: 50px;
+  width: 50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(31, 44, 108, 0.65);
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 2rem;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+#toTop a {
+  color: white;
+}
+#toTop:hover {
+  background-color: #43485c;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(245, 245, 245, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #43485c;
+}
+
+body.preloader-site {
+  overflow: hidden;
+}
+
+preloader-wrapper .preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+.white
+{color:ghostwhite}
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.white
+{color:ghostwhite}
+
+
+
+.navbar-item, .navbar-link {
+    color: white;
+    display: block;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+/* <div class="card column is-one-third">
+            <a href="#">
+            
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://www.simplyrecipes.com/thmb/S_UML7GX7JQDl5wLTAmKKNh1rjs=/2000x1334/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__10__HT-Make-an-Omelet-LEAD-HORIZONTAL-17cd2e469c4a4ccbbd1273a7cae6425c.jpg');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p> Get Cracking! Want to know how to make the perfect omelets? Look no further.Try this Eggs-quisite Omlette recipe that is infitnely customizable to your liking. Not only is this recipe heart healthy, it's nutritiously enjoyable.   
+</p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=20');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p>Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers!</p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=30');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p>Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers!</p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-27.jpg');"></figure>
+            </a>
+            <div class="content">
+            <h3>Chicken Makhani (Indian Butter Chicken) </h3>
+            <p>Try this butter chicken recipe, a dish that feature a full flavored sauce and is complemented with chicken.The curry can be made spicy or mild, depending on your liking. Butter Chicken is usually served with naan bread or basmati rice. </p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=50');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p>Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers!</p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=60');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p>Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers!</p>
+            
+      </div>
+          </div>
+        <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=60');"></figure>
+            </a>
+          <div class="content">
+            <h3>Omlette</h3>
+            <p> Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers! </p>
+            
+      </div>
+          </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://www.tasteofhome.com/wp-content/uploads/2018/01/Steak-and-Shrimp-Kabobs_EXPS_FT21_20966_F_0825_1-12.jpg?w=1200');"></figure>
+            </a>
+          <div class="content">
+            <h3>Steak & Shrimp Kebabs</h3>
+            <p>In this simple dinner,cubes of marinated steak are skewered with shrimp and veggies, then grilled. With this dish you can swap ingredients to satisy your palate. Try using pinneaple, zucchni, and even asparagus.</p>
+            
+      </div>
+        </div>
+          <div class="card column is-one-third">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=60');"></figure>
+            </a>
+            <div class="content">
+            <h3>Omelette</h3>
+            <p>Never fear! Making an omelette at home is not difficult. With a few basic steps and a flip of the wrist you can pull this off in minutes. Fill it with whatever you have on hand—it's a great way to use up leftovers!</p>
+            
+      </div>
+          </div> */
+          </div>
